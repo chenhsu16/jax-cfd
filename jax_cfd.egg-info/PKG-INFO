@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: jax-cfd
+Version: 0.2.1
+Home-page: https://github.com/google/jax-cfd
+Author: Google LLC
+Author-email: noreply@google.com
+License: Apache 2.0
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: jax
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: tree-math
+Provides-Extra: data
+Requires-Dist: matplotlib; extra == "data"
+Requires-Dist: seaborn; extra == "data"
+Requires-Dist: Pillow; extra == "data"
+Requires-Dist: xarray; extra == "data"
+Provides-Extra: ml
+Requires-Dist: dm-haiku; extra == "ml"
+Requires-Dist: einops; extra == "ml"
+Requires-Dist: gin-config; extra == "ml"
+Provides-Extra: tests
+Requires-Dist: absl-py; extra == "tests"
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: pytest-xdist; extra == "tests"
+Requires-Dist: scikit-image; extra == "tests"
+Provides-Extra: complete
+Requires-Dist: matplotlib; extra == "complete"
+Requires-Dist: seaborn; extra == "complete"
+Requires-Dist: Pillow; extra == "complete"
+Requires-Dist: xarray; extra == "complete"
+Requires-Dist: dm-haiku; extra == "complete"
+Requires-Dist: einops; extra == "complete"
+Requires-Dist: gin-config; extra == "complete"
+Requires-Dist: absl-py; extra == "complete"
+Requires-Dist: pytest; extra == "complete"
+Requires-Dist: pytest-xdist; extra == "complete"
+Requires-Dist: scikit-image; extra == "complete"
